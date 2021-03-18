@@ -10,15 +10,17 @@
 <body>
     
 
-    <div class="case">
-        <div class="base" draggable="true">box</div>
+    <div id="case" ondragover="dragover(event)" ondrop="drop(event)">
+        <div id="base" draggable="true" ondragstart="drag(event)">box</div>
     </div>
 
-    <div class="case">
-        <div class="base2" draggable="true">box2</div>
+    <div id="case" ondragover="dragover(event)" ondrop="drop(event)">
+        <div id="base2" draggable="true" ondragstart="drag(event)">box2</div>
     </div>
 
-    <div class="case"></div>
+    <div id="case" ondragover="dragover(event)" ondrop="drop(event)">
+        <div id="base3" draggable="true"ondragstart="drag(event)">box2</div>
+    </div>
     <div class="case"></div>
 
     <script src="ondrag.js"></script>

@@ -7,7 +7,7 @@ body {
 }
 
 
-.base {
+#base {
     background-color: red;
     position: relative;
     height: 150px;
@@ -21,7 +21,7 @@ body {
     border: solid 5px #ccc;
 }
 
-.case {
+#case {
     display: inline-block;
     height: 160px;
     width: 160px;
@@ -34,8 +34,17 @@ body {
     background: #f4f4f4;
     border-style: dashed;
 }
-.base2{
+#base2{
     background-color: green;
+    position: relative;
+    height: 150px;
+    width: 150px;
+    top: 5px;
+    left: 5px;
+    cursor: pointer;
+}
+#base3{
+    background-color: blue;
     position: relative;
     height: 150px;
     width: 150px;
